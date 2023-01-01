@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interior! Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/5df20b8cec.js" crossorigin="anonymous"></script>
+
+
+
+
+  <style>
+            /* * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+
+} */
+/* 
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background:linear-gradient(#0f4675,#0f4675 50%,#fff 50%, #fff 100%);
+
+} */
+
+.container{
+
+     width:1100px;
+     margin-left: 12%;
+     padding: 50px;
+     padding-right: 15px;
+     padding-bottom: 35px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     
+}
+
+.container .box{
+
+ 
+  position: relative;
+    width: 320px;
+    background-color: whitesmoke;
+    
+    padding: 40px 20px 20px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+
+
+}
+
+.container .box::before{
+
+content: '';
+position: absolute;
+top: 0;
+left: 12px;
+width:100%;
+height: 100%;
+background: #1b8c9b;
+transform: scale(0);
+transform-origin: top;
+transition:0.5s;
+
+
+}
+
+
+.container .box:hover::before{
+
+transform: scale(1);
+transform-origin: bottom;
+transition:0.5s;
+
+
+
+
+}
+
+
+.container .box h2{
+
+position: absolute;
+left: 40px;
+top:50px;
+font-size: 4em;
+font-weight: 800;
+z-index: 1;
+opacity: 0.1;
+transition: 0.5s;
+
+
+}  
+
+
+.container .box:hover h2{
+
+opacity: 1;
+color: #fff;
+transform: translate(-40px);
+
+
+
+}
+
+.container .box h3{
+
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: rgb(17, 18, 18);
+    transition: 0.5s;
+
+
+
+
+}
+
+.container .box p{
+
+position: relative;
+font-size: 1.5em;
+color: rgb(119, 100, 100);
+transition: 0.5s;
+
+
+}
+
+.container .box:hover h3{
+
+    color: #fff;
+}
+
+
+.container .box:hover p{
+
+color: #fff;
+
+}
+
+
+.content1{
+
+    width:1100px;
+     margin-left: 12%;
+     padding: 50px;
+     padding-right: 15px;
+     padding-bottom: 35px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+
+}
+
+.content1 .box{
+
+    position: relative;
+    width: 320px;
+    background-color: whitesmoke;
+    
+    padding: 40px 20px 20px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+
+
+
+}
+
+.content1 .box::before{
+
+content: '';
+position: absolute;
+top: 0;
+left: 12px;
+width:100%;
+height: 100%;
+background: #1b8b9f;
+transform: scale(0);
+transform-origin: top;
+transition:0.5s;
+
+
+}
+
+
+
+
+.content1 .box:hover::before{
+
+transform: scale(1);
+transform-origin: bottom;
+transition:0.5s;
+
+
+
+
+}
+
+.content1 .box h2{
+
+position: absolute;
+left: 40px;
+top:50px;
+font-size: 4em;
+font-weight: 800;
+z-index: 1;
+opacity: 0.1;
+transition: 0.5s;
+
+
+}  
+
+
+.content1 .box:hover h2{
+
+opacity: 1;
+color: #fff;
+transform: translate(-40px);
+
+
+
+}
+
+
+
+
+
+.content1 .box h3{
+
+position: relative;
+font-size: 1.5em;
+z-index: 2;
+color: rgb(18, 20, 20);
+transition: 0.5s;
+
+
+
+
+}
+
+.content1 .box p{
+
+position: relative;
+font-size: 1.5em;
+color: #555;
+transition: 0.5s;
+
+
+}
+
+
+.content1 .box:hover h3{
+
+color: #fff;
+}
+
+
+.content1 .box:hover p{
+
+color: #fff;
+
+}
+
+.h1{
+
+text-align:center;
+font-family:Times New Roman;
+font-size:larger;
+text-decoration:overline;
+text-transform:uppercase;
+color:brown;
+
+
+
+}
+
+
+
+
+
+
+
+  </style>
+  </head>
+
+
+<body>
+<div class="banner">
+  <div class="navbar">
+    <img src=""  class="logo2">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="Our Designs.html">Our Designs</a></li>
+      <li><a href="our services.html">Our Services</a></li>
+      <li><a href="Our Team.html">Our Team</a></li>
+
+    </ul>
+  </div>
+</div>
+  
+  
+  
+
+
+  <div class="content">
+  <h1>Livspace</h1>
+   
+
+    <div>
+    <button type="button"><span></span><a href="contact us.html">Contact Us</a></button>
+    <button type="button"><span></span><a href="book free cons.html">Book Free Consultatation</a></button>
+  
+    </div>
+  </div>
+  
+<br> <br>
+
+<div class="h1">
+  <h1>Why Choose US</h1>
+</div>
+
+<div class="container">
+  <div class="box">
+      <h2>01</h2>
+      <h3>Your home</h3>
+<p>Your home is the center of personal activity, the heart of life. It’s the place where you gather with friends, spend time with loved ones, and everyday moments can turn into lasting memories.
+  Your home should have the function to make living enjoyable and relaxing, while also making a stunning design statement that reflects your personal style. </p>
+</div>
+
+
+<div class="box">
+  <h2>02</h2>
+  <h3>We’re never snooty</h3>
+<p>Our job is to make your home’s transformation a reflection of you versus us. You can expect that our rapport will be exceptional and 
+  we’ll never beat up on your ideas, choices, suggestions, or home. </p>
+</div>
+
+<div class="box">
+  <h2>03</h2>
+  <h3>We’re never selling</h3>
+<p>We treasure the trust that comes with you selecting us for your project. 
+  Respecting your budget is a key part of maintaining that trust for us. This means that we’ll never show you options that are far beyond your budget’s reach, we’ll ensure that you have perfect clarity 
+  around how your budget will be spent throughout the project, and your projects will be priced as flat fees vs. on hours worked.  
+</p>
+</div>
+
+</div>
+
+
+<div class="content1">
+<div class="box">
+<h2>04</h2>
+<h3>We’ll finish as strong as we start</h3>
+<p>Our exceptional project management will ensure that the process of bringing a 
+  design you love to life, which includes product delivery and returns, vendor management, scheduling and coordinating, are all executed well. 
+  Your project will be delivered on time and on budget.</p>
+</div>
+
+
+
+<div class="box">
+<h2>05</h2>
+<h3>Why clients choose us</h3>
+<p>Once you’ve decided to work with a professional interior designer it’s 
+  given that the outcome will likely be exceptional. Among a field of very talented and capable design firms, clients select us 
+  for the way we bring them from concept to implementation. </p>
+</div>
+
+
+<div class="box">
+<h2>06</h2>
+<h3>Customer oriented</h3>
+<p>If you find yourself feeling like your spaces are worn, slightly distasteful, or dated, 
+  our range of services can turn them around.     </p>
+</div>
+
+
+</div>
+
+
+<br> <br>
+
+<div class="class1">
+<h1>A Little Preview Our Home Designs</h1>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="my img3.jpg" alt="" style="width:100%">
+  </div>
+
+
+
+<!-- <div class="row"> -->
+  <div class="column">
+    <img src="dinning room1.jpg" alt="" style="width:100%">
+</div>
+
+<!-- <div class="row"> -->
+  <div class="column">
+    <img src="kitchen3.jpg" alt="" style="width:100%">
+</div>
+
+<!-- <div class="row"> -->
+  <div class="column">
+    <img src="bedroom10 - Copy - Copy (2).jpg" alt="" style="width:100%">
+</div>
+
+<!-- <div class="row"> -->
+  <div class="column">
+    <img src="balcony int12.jpg" alt="" style="width:100%">
+</div>
+
+<!-- <div class="row"> -->
+  <div class="column">
+    <img src="backyard img.jpg" alt="" style="width:100%">
+</div>
+</div>
+
+<br> <br><br>
+
+<!--This is what we offer section-->
+
+
+<div class="class1">
+  <h1>What We Offer</h1>
+  </div>
+
+
+
+<div class="container">
+  <div class="box">
+      <h2>01</h2>
+      <h3>Our Services</h3>
+      <p>Modular kitchen, Modular Wardobes, Lighting, Flooring, Electrical Work, Civil Work, 
+        False Ceilling, Wall Designs & painting.  </p>
+      </div>
+      
+      
+      
+
+     <div class="box">
+      <h2>02</h2>
+      <h3>Warranty</h3>
+      <p>FLAT 10-Year Warranty- Stay Worry-Free With Our Warranty
+        Policy on Modular Prodcuts</p>
+        <p>Up to 1-Year On-site Services Warranty- Warranty on -site
+          services such as painting electrical , plumbing, and more.
+        </p>
+      
+    </div>
+    
+
+
+    <div class="box">
+      <h2>03</h2>
+      <h3>Technology & Science</h3>
+    <p> AquaBloc@ Technology-Hermetically sealed edges that ensure no moisture
+      enters the panels of your Modular Cabinets </p>
+    <p>AntiBUbble@ Technology-Super Seamless  Panels without air bubblesfor your Modular
+      cabintes.
+    </p>
+    </div>
+    </div>
+    
+
+    <div class="content1">
+      <div class="box">
+      <h2>04</h2>
+      <h3>Designs Science</h3>
+      <p>Dura Bild@Technology-Robust Structure For Modular Cabinets, Making them
+        strong and long-lasting </p>
+        <p>Designs Science-Modular Kitchen With improve accesibility that makes daily
+          tasks more efficent and reduces stress on the body </p>
+      </div>
+      
+      
+
+      <div class="box">
+        <h2>05</h2>
+        <h3>Easy EMI Option</h3>
+        <p>Flexible Payment Options-EMI Solutions and payment Schemes from leading 
+          financial Partners </p>
+        </div>
+        
+
+        <div class="box">
+          <h2>06</h2>
+          <h3>Pricing Benifits</h3>
+          <p>Price-Match Guarantee-Price match to a valid quote in comparison with a branded
+            player and for excat scope</p>
+            <p>No Hidden Costs-Transparent costing without last-minute additions</p>
+          </div>
+            </div>
+          </div>
+          
+<br> <br>
+
+  <!--This our footer Section-->
+  
+  
+  <div class="footer">
+    <div class="main1">
+    <h3>Livspace</h3>
+    <a href="index.html">Home</a>
+    <a href="Our Designs.html">Our Designs</a>
+    <a href="Our services.html">Our Services</a>
+    <a href="Our Team.html">Our Team</a>
+    <a href="contact us.html">Contact Us</a>
+    <a href="book free cons.html">Book Free Consultation</a>
+    </div>
+    
+    <div class="main2">
+    <h3>NEWSLETTER</h3>
+    <form>
+    
+    <input type="email" placeholder="Your Email Address" required>
+    <br>
+    <button type="Register">Connect With us</button>   
+    </form>
+    </div>
+    
+    <div class="main3">
+     <h3>Contact us</h3>
+    <p>sinhgad Road , Anandnager<br>Pune Maharashtra,4110024</p>
+    <br> <br>
+    
+     <div class="social-icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>      
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+
+
+     </div>
+    </div>
+
+
+
+    </div> 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
